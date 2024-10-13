@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>OriFaro Cypher</h1>
+      <h3>Our secret language translator</h3>
+      <textarea type="text" id="input" class="input"></textarea>
+      <div class="createBtns">
+        <button class="encript" onclick="encriptText()">Encript</button>
+        <button class="decript" onclick="decriptText()">Decript</button>
+      </div>
+      <p id="paragraph" class="paragraph"></p>
+      <div id="actionBtns" class="actionBtns">
+        <button class="copy" onclick="copyToClipboard()">Copy</button>
+        <button class="clear" onclick="clearText()">Clear</button>
+        <button class="share" onclick="shareText()">Share</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
